@@ -1,0 +1,11 @@
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.Form1.resources
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.Properties.Resources.resources
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.csproj.GenerateResource.Cache
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\bin\Debug\WinBug.exe.config
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\bin\Debug\WinBug.exe
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\bin\Debug\WinBug.pdb
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\bin\Debug\Winumeration.dll
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\bin\Debug\Winumeration.pdb
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.csprojResolveAssemblyReference.cache
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.exe
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\WinBug\obj\Debug\WinBug.pdb

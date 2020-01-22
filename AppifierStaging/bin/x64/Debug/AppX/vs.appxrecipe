@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HAGAL</Machine>
+    <WindowsUser>bjcullinan</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <RegisteredManifestChecksum>E8576556A5742ACC81C0A34F96DE7EEDCF8BEB76E778403F304138EFB45CC913</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b2707cda-2826-479a-ae32-67e86e959c6a_1.0.0.0_x64__snkjpwhyy9ehe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b2707cda-2826-479a-ae32-67e86e959c6a_snkjpwhyy9ehe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b2707cda-2826-479a-ae32-67e86e959c6a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=bjcullinan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-26T23:40:15.677</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\AppifierStaging.exe">
+      <PackagePath>AppifierStaging.exe</PackagePath>
+      <Modified>2012-10-26T23:40:14.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\AppifierStaging.pdb">
+      <PackagePath>AppifierStaging.pdb</PackagePath>
+      <Modified>2012-10-26T23:40:12.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T03:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-10-24T18:12:20.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T23:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-10-24T18:12:20.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-10-26T23:40:15.481</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

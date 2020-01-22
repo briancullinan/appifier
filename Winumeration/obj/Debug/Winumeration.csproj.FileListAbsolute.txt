@@ -1,0 +1,5 @@
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\Winumeration\bin\Debug\Winumeration.dll
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\Winumeration\bin\Debug\Winumeration.pdb
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\Winumeration\obj\Debug\Winumeration.dll
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\Winumeration\obj\Debug\Winumeration.pdb
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\Winumeration\obj\Debug\Winumeration.csprojResolveAssemblyReference.cache

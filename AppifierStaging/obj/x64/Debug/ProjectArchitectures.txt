@@ -1,0 +1,1 @@
+C:\Users\bjcullinan\Documents\Visual Studio 2012\Projects\Appifier\AppifierStaging\AppifierStaging.csproj;x64

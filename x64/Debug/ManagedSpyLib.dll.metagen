@@ -1,0 +1,80 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ManagedSpyLib, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Microsoft.ManagedSpy.ProxyEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.ComponentModel.EventDescriptor, System.EventArgs): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ComponentModel.EventDescriptor eventDescriptor : Public
+    System.EventArgs eventArgs : Public
+Class Microsoft.ManagedSpy.ControlProxyEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, ProxyEventArgs): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Object, ProxyEventArgs, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Microsoft.ManagedSpy.ControlProxy: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.Windows.Forms.Control): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ComponentModel.ICustomTypeDescriptor
+  Properties:
+    Microsoft.ManagedSpy.ControlProxy[] TopLevelWindows 'get ' : 
+    Microsoft.ManagedSpy.ControlProxy Parent 'get ' : 
+    System.Type ComponentType 'get ' : 
+    Boolean IsManaged 'get ' : 
+    System.Diagnostics.Process OwningProcess 'get ' : 
+    Microsoft.ManagedSpy.ControlProxy[] Children 'get ' : 
+    IntPtr Handle 'get set' : 
+  Events:
+    Microsoft.ManagedSpy.ControlProxyEventHandler EventFired: SpecialName
+  Methods:
+    OnHandleCreated(Object, EventArgs): PrivateScope, Public, HideBySig
+    OnHandleDestroyed(Object, EventArgs): PrivateScope, Public, HideBySig
+    GetAttributes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetClassName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetComponentName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetConverter(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetDefaultEvent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetDefaultProperty(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEditor(Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEvents(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEvents(Attribute[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetProperties(Attribute[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetProperties(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetPropertyOwner(PropertyDescriptor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Handle(): PrivateScope, Public, HideBySig, SpecialName
+    set_Handle(IntPtr): PrivateScope, Public, HideBySig, SpecialName
+    get_Children(): PrivateScope, Public, HideBySig, SpecialName
+    get_OwningProcess(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsManaged(): PrivateScope, Public, HideBySig, SpecialName
+    get_ComponentType(): PrivateScope, Public, HideBySig, SpecialName
+    add_EventFired(ControlProxyEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_EventFired(ControlProxyEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    RaiseEvent(ProxyEventArgs): PrivateScope, Public, HideBySig
+    SubscribeEvent(String): PrivateScope, Public, HideBySig
+    SubscribeEvent(EventDescriptor): PrivateScope, Public, HideBySig
+    UnsubscribeEvent(String): PrivateScope, Public, HideBySig
+    UnsubscribeEvent(EventDescriptor): PrivateScope, Public, HideBySig
+    SendMessage(Int32, IntPtr, IntPtr): PrivateScope, Public, HideBySig
+    SetEventWindow(IntPtr): PrivateScope, Public, HideBySig
+    get_Parent(): PrivateScope, Public, HideBySig, SpecialName
+    GetValue(String): PrivateScope, Public, HideBySig
+    SetValue(String, Object): PrivateScope, Public, HideBySig
+    PointToClient(ValueType Point IsBoxed): PrivateScope, Public, HideBySig
+    PointToScreen(ValueType Point IsBoxed): PrivateScope, Public, HideBySig
+    FromHandle(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_TopLevelWindows(): PrivateScope, Public, Static, HideBySig, SpecialName
